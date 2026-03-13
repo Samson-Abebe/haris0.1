@@ -34,7 +34,7 @@ export default function ContactPage() {
         {/* Title */}
         <VStack spacing={4} textAlign="center" mb={16}>
           <Heading size="2xl">
-            Haris Pharmaceuticals Import
+            Haris Pharmaceuticals Import 
           </Heading>
 
           <Text color={textColor} maxW="600px">
