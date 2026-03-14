@@ -7,15 +7,16 @@ export const metadata: Metadata = {
   description:
     'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
 
+  // Open Graph metadata (for Facebook, Telegram, LinkedIn, etc.)
   openGraph: {
     title: 'Haris Pharmaceuticals Import',
     description:
       'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
-    url: 'https://harispharma.com',
+    url: 'https://haris0-1.vercel.app', // Your live site
     siteName: 'Haris Pharmaceuticals',
     images: [
       {
-        url: 'https://harispharma.com/og-image.png',
+        url: 'https://haris0-1.vercel.app/og-image.png', // FULL URL is required
         width: 1200,
         height: 630,
         alt: 'Haris Pharmaceuticals Import',
@@ -25,12 +26,13 @@ export const metadata: Metadata = {
     type: 'website',
   },
 
+  // Twitter metadata
   twitter: {
     card: 'summary_large_image',
     title: 'Haris Pharmaceuticals Import',
     description:
       'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
-    images: ['https://harispharma.com/og-image.png'],
+    images: ['https://haris0-1.vercel.app/og-image.png'], // FULL URL
   },
 }
 
