@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'Haris Pharmaceuticals',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://harispharma.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Haris Pharmaceuticals Import',
@@ -30,11 +30,7 @@ export const metadata: Metadata = {
     title: 'Haris Pharmaceuticals Import',
     description:
       'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
-    images: ['/og-image.png'],
-  },
-
-  icons: {
-    icon: '/favicon.ico',
+    images: ['https://harispharma.com/og-image.png'],
   },
 }
 
