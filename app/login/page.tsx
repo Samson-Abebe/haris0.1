@@ -103,6 +103,19 @@ export default function ContactPage() {
                   </HStack>
                 </CardBody>
               </Card>
+                    <Card w="full" shadow="md" bg={cardBg}>
+                <CardBody>
+                  <HStack spacing={4}>
+                    <Icon as={FaPhone} boxSize={6} color={iconColor}/>
+                    <Box>
+                      <Heading size="md">Phone</Heading>
+                      <Text color={textColor}>
+                        +251911419083
+                      </Text>
+                    </Box>
+                  </HStack>
+                </CardBody>
+              </Card>
 
               <Card w="full" shadow="md" bg={cardBg}>
                 <CardBody>

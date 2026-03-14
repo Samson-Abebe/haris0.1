@@ -40,6 +40,12 @@ const siteConfig = {
         href: '/login',
          variant: 'primary',
       },
+         {
+        label: 'Equipment ',
+        href: '/equipment',
+         variant: 'primary',
+      },
+    
     
     ],
   },

@@ -4,11 +4,9 @@ import {
   Box,
   ButtonGroup,
   Container,
-  Flex,
   HStack,
   Heading,
   Icon,
-  IconButton,
   Stack,
   Tag,
   Text,
@@ -22,20 +20,7 @@ import Image from 'next/image'
 import {
   FiArrowRight,
   FiBox,
-  FiCheck,
-  FiCode,
-  FiCopy,
-  FiFlag,
-  FiGrid,
-  FiLock,
-  FiSearch,
-  FiSliders,
-  FiSmile,
-  FiTerminal,
-  FiThumbsUp,
-  FiToggleLeft,
-  FiTrendingUp,
-  FiUserPlus,
+  
   FiShield,
   FiPackage,
   FiTruck,
@@ -134,7 +119,7 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Haris pharmaceuticals import
+                Haris pharmaceuticals import samson
                 <Br /><span style={{ color: '#c2d6d6' }}>
   Precision Care Personal Touch
 </span>

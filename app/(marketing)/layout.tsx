@@ -6,6 +6,36 @@ export const metadata: Metadata = {
   title: 'Haris Pharmaceuticals Import',
   description:
     'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
+
+  openGraph: {
+    title: 'Haris Pharmaceuticals Import',
+    description:
+      'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
+    url: 'https://harispharma.com',
+    siteName: 'Haris Pharmaceuticals',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Haris Pharmaceuticals Import',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Haris Pharmaceuticals Import',
+    description:
+      'Trusted pharmaceutical importer in Ethiopia providing high-quality medicines and healthcare solutions.',
+    images: ['/og-image.png'],
+  },
+
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function Layout({

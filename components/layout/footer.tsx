@@ -194,7 +194,7 @@ export const Footer = () => {
 
   <HStack>
     <Icon as={FiPhone} color="teal.300" />
-    <Text color="whiteAlpha.700">+251 91 272 2600</Text>
+    <Text color="whiteAlpha.700">+251 911419083</Text>
   </HStack>
   <HStack>
     <Icon as={FiPhone} color="teal.300" />
