@@ -420,7 +420,7 @@ const AboutSection = () => {
           <Text color="muted" fontSize="xl">
             We are a trusted pharmaceutical import company based in Ethiopia,
             dedicated to supplying high-quality medicines, medical equipment,
-            and healthcare supplies to hospitals, clinics, pharmacies, and
+            and healthcare supplies to hospitals, clinics, Whole sales, and
             individual customers.
           </Text>
 
@@ -550,7 +550,7 @@ const HighlightsSection = () => {
         _dark={{ color: "gray.300" }}
       >
         Our goal is to expand pharmaceutical access across Ethiopia by
-        strengthening partnerships with hospitals, clinics, and pharmacies
+        strengthening partnerships with hospitals, clinics, and Whole sales
         while ensuring safe and affordable medicines.
       </Text>
     </VStack>
@@ -681,7 +681,7 @@ const ServicesSection = () => {
       description={
         <>
           We provide a full range of pharmaceutical services to hospitals,
-          clinics, pharmacies, and individuals, ensuring quality, safety, and
+          clinics, Whole sales, and individuals, ensuring quality, safety, and
           reliability.
         </>
       }

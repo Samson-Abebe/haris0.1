@@ -171,14 +171,16 @@ export const Footer = () => {
             <Text fontSize="lg" fontWeight="bold" color="white">
               Our Services
             </Text>
-           <Text color="whiteAlpha.700">Pharmaceutical Import</Text>
-<Text color="whiteAlpha.700">Pharmacy Services</Text>
-<Text color="whiteAlpha.700">Healthcare Supplies</Text>
-<Text color="whiteAlpha.700">Wellness Solutions</Text>
-<Text color="whiteAlpha.700">Pharmaceutical Import</Text>
-<Text color="whiteAlpha.700">Pharmacy Services</Text>
-<Text color="whiteAlpha.700">Healthcare Supplies</Text>
-<Text color="whiteAlpha.700">Wellness Solutions</Text>
+             <Text fontSize="lg" fontWeight="bold" color="white">
+                 Pharmaceutical Import            </Text>
+
+     
+          
+<Text color="whiteAlpha.700">medicine import</Text>
+<Text color="whiteAlpha.700">medical equipment import</Text>
+<Text color="whiteAlpha.700">laboratory reagent import</Text>
+<Text color="whiteAlpha.700">vitamin and suplement import</Text>
+
           </Stack>
 
           {/* Contact */}

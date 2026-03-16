@@ -18,7 +18,7 @@ const faq = {
       q: 'Who can purchase products from your company?',
       a: (
         <>
-          Our products are supplied to licensed pharmacies, hospitals,
+          Our products are supplied to licensed Whole sales, hospitals,
           clinics, and authorized pharmaceutical distributors.
         </>
       ),
@@ -27,7 +27,7 @@ const faq = {
       q: 'Do you provide bulk orders for pharmacies and hospitals?',
       a: (
         <>
-          Yes, we supply medicines in bulk quantities for pharmacies,
+          Yes, we supply medicines in bulk quantities for Whole sales,
           hospitals, and healthcare organizations depending on their
           requirements.
         </>
@@ -57,7 +57,7 @@ const faq = {
       q: 'Do you distribute medicines nationwide?',
       a: (
         <>
-          Yes, we supply pharmaceutical products to pharmacies and
+          Yes, we supply pharmaceutical products to Whole sales and
           healthcare institutions across the country through our
           distribution network.
         </>
