@@ -16,6 +16,14 @@ export default {
       info: 'ACE Inhibitors • Beta Blockers • Statins',
     },
     {
+  title: 'Ophthalmic',
+  description:
+    'Medicines used for eye conditions such as infections, glaucoma, dryness, and inflammation.',
+  image: '/static/images/ophthalmic.webp',
+  info: 'Eye Drops • Anti-glaucoma • Lubricants • Antibiotics',
+},
+
+    {
       title: 'Anti-Infectives',
       description:
         'Medicines that fight bacterial, viral, and fungal infections.',
