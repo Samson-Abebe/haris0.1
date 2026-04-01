@@ -205,7 +205,7 @@ export const Footer = () => {
 
   <HStack>
     <Icon as={FiMail} color="teal.300" />
-    <Text color="whiteAlpha.700">info@haris-group.com</Text>
+    <Text color="whiteAlpha.700">haris@harispharma.com</Text>
   </HStack>
 
 
@@ -217,7 +217,7 @@ export const Footer = () => {
               Follow Us
             </Text>
 <HStack spacing="5">
-  <Link href="#" aria-label="Facebook">
+  <Link href="https://www.facebook.com/profile.php?id=61576476786651" aria-label="Facebook">
     <Icon
       as={FiFacebook}
       boxSize="6"
@@ -227,7 +227,7 @@ export const Footer = () => {
     />
   </Link>
 
-  <Link href="#" aria-label="Instagram">
+  <Link href="https://www.instagram.com/haris_pharma?igsh=ZnB2MHJjYng3eGRw" aria-label="Instagram">
     <Icon
       as={FiInstagram}
       boxSize="6"
@@ -257,7 +257,7 @@ export const Footer = () => {
     />
   </Link>
 
-  <Link href="#" aria-label="TikTok">
+  <Link href="https://vm.tiktok.com/ZS98DHWhqn8nQ-XVSbV/" aria-label="TikTok">
     <Icon
          as={SiTiktok} // Use a TikTok-like icon or import one from react-icons/si
       boxSize="6"
@@ -267,19 +267,11 @@ export const Footer = () => {
     />
   </Link>
 
-  <Link href="#" aria-label="LinkedIn">
-    <Icon
-      as={FiLinkedin}
-      boxSize="6"
-      color="whiteAlpha.700"
-      transition="all .3s"
-      _hover={{ color: 'blue.600', transform: 'scale(1.2)' }}
-    />
-  </Link>
+ 
 
 
 
-  <Link href="#" aria-label="Telegram">
+  <Link href="https://t.me/HarisPharmaceutical" aria-label="Telegram">
     <Icon
       as={SiTelegram} // You can replace with a Telegram-specific icon if using react-icons/si
       boxSize="6"

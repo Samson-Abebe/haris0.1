@@ -48,40 +48,54 @@ export default function ContactPage() {
           {/* CONTACT FORM */}
           <GridItem>
 
-            <Card shadow="lg" borderRadius="xl" bg={cardBg}>
-              <CardBody>
+          <Card shadow="lg" borderRadius="xl" bg={cardBg}>
+  <CardBody>
 
-                <VStack spacing={6}>
+    <Box
+      as="form"
+      action="https://formspree.io/f/xwvwbgzj"
+      method="POST"
+    >
+      <VStack spacing={6}>
 
-                  <Input
-                    placeholder="Full Name"
-                    size="lg"
-                  />
+        <Input
+          name="name"
+          placeholder="Full Name"
+          size="lg"
+          required
+        />
 
-                  <Input
-                    placeholder="Email Address"
-                    size="lg"
-                    type="email"
-                  />
+        <Input
+          name="email"
+          placeholder="Email Address"
+          size="lg"
+          type="email"
+          required
+        />
 
-                  <Textarea
-                    placeholder="Your Message"
-                    size="lg"
-                    rows={5}
-                  />
+        <Textarea
+          name="message"
+          placeholder="Your Message"
+          size="lg"
+          rows={5}
+          required
+        />
 
-                  <Button
-                    colorScheme="purple"
-                    size="lg"
-                    width="full"
-                  >
-                    Send Message
-                  </Button>
+        <Button
+          type="submit"
+          colorScheme="purple"
+          size="lg"
+          width="full"
+        >
+          Send Message
+        </Button>
 
-                </VStack>
+      </VStack>
+    </Box>
 
-              </CardBody>
-            </Card>
+  </CardBody>
+</Card>
+
 
           </GridItem>
 
@@ -138,7 +152,7 @@ export default function ContactPage() {
                     <Box>
                       <Heading size="md">Email</Heading>
                       <Text color={textColor}>
-                        info@haris-group.com
+                        haris@harispharma.com
                       </Text>
                     </Box>
                   </HStack>

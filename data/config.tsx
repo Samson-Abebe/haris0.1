@@ -37,7 +37,7 @@ const siteConfig = {
       },
       {
         label: 'Contact us',
-        href: '/login',
+        href: '/CONTACT',
          variant: 'primary',
       },
          {
